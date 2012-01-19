@@ -13,10 +13,10 @@
    
    
    <!-- <rewrite trailingSlash="append" toCase="lowercase" redirect="301"/> -->
-   <!-- <rewrite match="^$" substitute="/pages/" redirect="301"/>
-   <rewrite match="^/$" substitute="/pages/" redirect="301"/>  -->
+   <rewrite match="^$" substitute="/pages/" redirect="301"/>
+   <rewrite match="^/$" substitute="/pages/" redirect="301"/>
    <!-- <rewrite match="^\?.*$" substitute="/pages/$0" redirect="301"/>  -->
-   <!-- <rewrite match="^/\?.*$" substitute="/pages$0" redirect="301"/>-->
+   <rewrite match="^/\?.*$" substitute="/pages$0" redirect="301"/>
    
    <!-- Begin UrlMappings 
       // These are examples of URL mappings, and should be customized for your application.
