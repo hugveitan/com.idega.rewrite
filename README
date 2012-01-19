@@ -1,0 +1,1 @@
+Module com.idega.rewrite disables the redirect of "/" to "/pages/" function of IWWelcomeFilter and enables rewrite and JSF url-mapping using OCPsoft PrettyFaces (later to become OCPsoft //rewrite). By default it still redirects to "/pages/" but it can be changed in the pretty-config.xml file in this module or at the webapp root.
